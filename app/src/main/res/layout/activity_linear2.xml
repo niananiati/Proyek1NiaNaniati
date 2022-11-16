@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:src="@drawable/b4b" />
+
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Proyek 1 Nia Naniati"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/button_text"
+            android:hint="Kepada"
+            android:id="@+id/kepada"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="subyek"
+            android:id="@+id/Subyek"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:hint="Tulilskan pesan anda disini"
+            android:id="@+id/pss"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="@color/button_text"
+            android:text="Kirim"
+            android:id="@+id/kirim"/>
+</LinearLayout>
